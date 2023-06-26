@@ -1,2 +1,31 @@
 
 /* Your CSS Code here. */
+
+#outer_most {
+    height: 300px;
+    width: 600px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+#outer {
+    border: 15px solid blue;
+    margin: 20px;
+}
+
+.inner_most {
+    padding: 50px;
+    background-color: lightblue;
+}
+
+.inner {
+    height: auto;
+    width: 300px;
+    border: 1px dashed black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    padding: 5%;
+}
